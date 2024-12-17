@@ -10,8 +10,7 @@ A new Flutter project.
          case '/map':
         return MaterialPageRoute(builder: (_) => const NearbyFutsalMap());
 
-2. string.dart
-     static String googleApiKey = "file ma nai hera ";
+2. string.dart "file ma nai hera ";
 
 3. account_page.dart
     removed booking_history.dart
