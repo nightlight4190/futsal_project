@@ -4,13 +4,22 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+#Changes made
 
-A few resources to get you started if this is your first Flutter project:
+1. app_router.dart
+         case '/map':
+        return MaterialPageRoute(builder: (_) => const NearbyFutsalMap());
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. string.dart
+     static String googleApiKey = "file ma nai hera ";
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. account_page.dart
+    removed booking_history.dart
+
+4. in map folder
+     created google_map.dart file
+
+5. updated home_page.dart file
+    removed search bar in the home page.
+
+6. updated main_page.dart file with a FloatingActionButton and made adjustments to nav bar.
